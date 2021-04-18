@@ -13,7 +13,7 @@ Then User successfully access the Add Employee field
  |reddy|prasad|
  And user selected the Login Details Checkbox
  And User enters Username  and password and confirmpassword 
- |kttttqiynmmmbriiqbm|pass1283|pass1283|
+ |kttttqiynmmmnbriiqbm|pass1283|pass1283|
  And select the Status
  And click on Save button
  Then User navigate to My Info field
