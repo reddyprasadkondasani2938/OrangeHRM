@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="10" time="228.083641">
+<testcase classname="Add Employee" name="User successfully access the Add Employee Field when he click on add employee" time="24.251875">
+<system-out><![CDATA[Given User is on HomePage of OrangeHRM application..........................passed
+When User clicks on PIM Module..............................................passed
+And clicks on Add Employee..................................................passed
+Then User successfully access the Add Employee field........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add Employee" name="User is successfully add Employee Details with login details" time="29.33954">
+<system-out><![CDATA[Given user is on the Add Employee Field.....................................passed
+When User enters the Firstname  and lastname................................passed
+And user selected the Login Details Checkbox................................passed
+And User enters Username  and password and confirmpassword..................passed
+And select the Status.......................................................passed
+And click on Save button....................................................passed
+Then User navigate to My Info field.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add Employee" name="User is getting error message when he did not enter Username" time="21.967242">
+<system-out><![CDATA[Given user is on the Add Employee Field.....................................passed
+When users enters all the required fields...................................passed
+But user did not enter Username field.......................................passed
+Then error message displayed below the username field.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add Employee" name="Failure in adding employee details when the user did not enter password" time="20.858031">
+<system-out><![CDATA[Given user is on the Add Employee Field.....................................passed
+When User enters all required fields........................................passed
+But user did not enter the password.........................................passed
+Then Error message displayed on password field..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add Employee" name="User gets error message when he did not enter the firstname" time="24.555455">
+<system-out><![CDATA[Given user is on the Add Employee Field.....................................passed
+When User did not enter the firstname.......................................passed
+And user clicks on Save Button..............................................passed
+Then error message displayed below the firstname field......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add Employee" name="User gets error message when he did not enter lastname" time="24.116353">
+<system-out><![CDATA[Given user is on the Add Employee Field.....................................passed
+When User enter the firstname...............................................passed
+But user did not the lastname...............................................passed
+Then error message displayed below the lastname field.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add Employee" name="User gets error when he enter username less than five characters" time="22.315379">
+<system-out><![CDATA[Given user is on the Add Employee Field.....................................passed
+When User enters all required field.........................................passed
+But user entered the username less than five characters.....................passed
+Then error message displayed................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add Employee" name="User gets error message when he entered password less than eight characters" time="21.893514">
+<system-out><![CDATA[Given user is on the Add Employee Field.....................................passed
+When User entered all required fields.......................................passed
+But user enters the password less than eight characters.....................passed
+Then error message will be displayed........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Employee List" name="User successfully access the Employee List when he clicks on Employee List" time="17.613379">
+<system-out><![CDATA[Given User is on Home Page of OrangeHRM application.........................passed
+When user clicks on PIM Module..............................................passed
+And user clicks on Employee List............................................passed
+Then User is successfully access the Employee List field....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Employee List" name="User is successfully search the employee" time="21.172873">
+<system-out><![CDATA[Given User is on Employee List field........................................passed
+When User provides the required details.....................................passed
+And click on Search button..................................................passed
+Then user information is displayed..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
